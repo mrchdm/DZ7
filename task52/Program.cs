@@ -23,9 +23,9 @@ int[,] CreateArr(int n, int m ) //где m- колчичество строк, �
 }
 
 
-Console.WriteLine("Введите номер строки элемента");
+Console.WriteLine("Введите количество строк");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите номер столбца элемента");
+Console.WriteLine("Введите количество столбцов");
 int b = Convert.ToInt32(Console.ReadLine());
 double ArithmeticalMean = 0;
 int[,] array = CreateArr(a, 4);
